@@ -10,4 +10,5 @@
 // No direct access to this file
 defined('_JEXEC') or die;
 ?>
+<div>tmpl/default.php is where we are</div>
 <h1><?php echo $this->msg; ?></h1>
