@@ -30,14 +30,14 @@ class HelloWorldViewHelloWorld extends JViewLegacy
 		$this->msg = $this->get('Msg');
 		$document = JFactory::getDocument();
 		$myDir = 'components/com_helloworld/views/helloworld/tmpl/';
-		$url = JUri::base() . 'styles.3de4e0396b715684784b.css';
+		$url = JUri::base() . $myDir . 'styles.3de4e0396b715684784b.css';
 		$document->addStyleSheet($url);
 		$url1 = JUri::base() . $myDir . 'polyfills.9a5f6d04e0781d28c53e.js';
 		$url2 = JUri::base() . $myDir . 'runtime.cf99c7b9e5f7f9b19078.js';
 		$url3 = JUri::base() . $myDir . 'main.3cdd7a3e6cf6e20739fb.js';
 		$document->addScript($url1);
 		$document->addScript($url2);
-		$document->addScript($url3);
+		$document->addScript($url3, array() ,array('defer' => true));
 
 		// Check for errors.
 		if (count($errors = $this->get('Errors')))
