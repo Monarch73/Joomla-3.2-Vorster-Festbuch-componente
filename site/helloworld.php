@@ -16,10 +16,5 @@ $controller = JControllerLegacy::getInstance('HelloWorld');
 // Perform the Request task
 $input = JFactory::getApplication()->input;
 $controller->execute($input->getCmd('task'));
-$document = JFactory::getDocument();
-$url = $JUri::base() . 'templates/custom/css/sample.css';
-$document->addStyleSheet($url);
-$url = $JUri::base() . 'templates/custom/js/sample.js';
-$document->addScript($url);
 // Redirect if set by the controller
 $controller->redirect();
