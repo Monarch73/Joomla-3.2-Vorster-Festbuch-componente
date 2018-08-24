@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\admin",
+    "\\admin\\controllers",
+    "\\admin\\models",
+    "\\admin\\models\\fields",
+    "\\admin\\models\\forms",
+    "\\admin\\sql\\updates",
+    "\\admin\\sql\\updates\\mysql",
+    "\\admin\\tables",
+    "\\admin\\views\\helloworld",
+    "\\admin\\views\\helloworlds"
+  ],
+  "SelectedNode": "\\Joomla-3.2-Vorster-Festbuch-componente.zip",
+  "PreviewInSolutionExplorer": false
+}
