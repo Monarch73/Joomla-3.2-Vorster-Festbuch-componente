@@ -29,12 +29,12 @@ class HelloWorldViewHelloWorld extends JViewLegacy
 		// Assign data to the view
 		$this->msg = $this->get('Msg');
 		$document = JFactory::getDocument();
-		$myDir = 'components/com_helloworld/views/helloworld/tmpl/';
-		$url = JUri::base() . $myDir . 'styles.fe19a3fdce3431736387.css';
+		$myDir = 'components/com_helloworld/views/helloworld/tmpl/' . $this->msg . '/';
+		$url = JUri::base() . $myDir . 'styles.css';
 		$document->addStyleSheet($url);
-		$url1 = JUri::base() . $myDir . 'polyfills.2f4a59095805af02bd79.js';
-		$url2 = JUri::base() . $myDir . 'runtime.a66f828dca56eeb90e02.js';
-		$url3 = JUri::base() . $myDir . 'main.57f81321ce051ccd55ca.js';
+		$url1 = JUri::base() . $myDir . 'polyfills.js';
+		$url2 = JUri::base() . $myDir . 'runtime.js';
+		$url3 = JUri::base() . $myDir . 'main.js';
 		$document->addScript($url1);
 		$document->addScript($url2);
 		$document->addScript($url3, array() ,array('defer' => true));

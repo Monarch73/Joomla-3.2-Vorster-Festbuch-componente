@@ -11,4 +11,3 @@
 defined('_JEXEC') or die;
 ?>
 <app-root></app-root>
-<h1><?php echo $this->msg; ?></h1>

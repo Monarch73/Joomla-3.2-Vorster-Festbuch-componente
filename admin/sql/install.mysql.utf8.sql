@@ -11,5 +11,5 @@ CREATE TABLE `#__helloworld` (
 	DEFAULT CHARSET =utf8;
 
 INSERT INTO `#__helloworld` (`greeting`) VALUES
-('Hello World!'),
-('Good bye World!');
+('festbuch2018jpg'),
+('festbuch2018pdf');

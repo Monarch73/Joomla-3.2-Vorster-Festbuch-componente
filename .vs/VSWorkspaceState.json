@@ -2,16 +2,13 @@
   "ExpandedNodes": [
     "",
     "\\admin",
-    "\\admin\\controllers",
-    "\\admin\\models",
-    "\\admin\\models\\fields",
-    "\\admin\\models\\forms",
+    "\\admin\\sql",
     "\\admin\\sql\\updates",
-    "\\admin\\sql\\updates\\mysql",
-    "\\admin\\tables",
-    "\\admin\\views\\helloworld",
-    "\\admin\\views\\helloworlds"
+    "\\site",
+    "\\site\\views",
+    "\\site\\views\\helloworld",
+    "\\site\\views\\helloworld\\tmpl"
   ],
-  "SelectedNode": "\\Joomla-3.2-Vorster-Festbuch-componente.zip",
+  "SelectedNode": "\\site\\views\\helloworld\\tmpl\\default.php",
   "PreviewInSolutionExplorer": false
 }
